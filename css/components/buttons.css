@@ -1,0 +1,36 @@
+.c-btn {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 900;
+  font-size: 16px;
+  background-color: var(--sky-blue);
+  display:inline-block; 
+  padding: 14px 12px 12px;
+  transition: all 0.6s ease;
+  text-decoration: none;
+
+}
+
+.c-btn:hover {
+  background-color: var(--pink);
+
+}
+
+.c-btn__navy {
+  background-color: var(--navy);
+}
+
+.c-btn__navy:hover {
+  background-color: var(--pink);
+}
+
+.c-btn__arrow {
+  padding-right: 42px;
+  background-image: url('../../img/right-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center right 12px;
+}
+
+.c-btn__arrow:hover {
+  background-position: center right 8px;
+}

@@ -1,0 +1,19 @@
+.pink-period::after{
+  content: ".";
+  color: var(--pink);
+}
+
+.yellow-period::after{
+  content: ".";
+  color: var(--yellow);
+}
+
+.peach-period::after{
+  content: ".";
+  color: var(--peach);
+}
+
+.sky-blue-period::after{
+  content: ".";
+  color: var(--sky-blue);
+}

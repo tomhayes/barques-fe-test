@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  line-height: normal;
+  color: #000;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 480px) {
+  html {
+      font-size: 2.084vw;
+  }
+}
